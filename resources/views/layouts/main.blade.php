@@ -9,7 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Store LTE</title>
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="{{ url('css/app.css') }}">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.2/skins/all.css" />
 
@@ -70,16 +70,16 @@
 
     <!-- REQUIRED SCRIPTS -->
 
-    <script src="/js/app.js"></script>
+    <script src="{{ url('js/app.js') }}"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="/js/moment.js"></script>
-    <script src="/js/sale.js"></script>
-    <script src="/js/img-preview.js"></script>
-    <script src="/js/jquery.nicescroll.min.js"></script>
-    <script src="/js/select2.min.js"></script>
-    <script src="/js/JsBarcode.all.min.js"></script>
-    <script src="/js/onscan.min.js"></script>
-    <script src="/js/printThis.js"></script>
+    <script src="{{ url('js/moment.js') }}"></script>
+    <script src="{{ url('js/sale.js') }}"></script>
+    <script src="{{ url('js/img-preview.js') }}"></script>
+    <script src="{{ url('js/jquery.nicescroll.min.js') }}"></script>
+    <script src="{{ url('js/select2.min.js') }}"></script>
+    <script src="{{ url('js/JsBarcode.all.min.js') }}"></script>
+    <script src="{{ url('js/onscan.min.js') }}"></script>
+    <script src="{{ url('js/printThis.js') }}"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.2/icheck.min.js"></script>

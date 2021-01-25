@@ -27,7 +27,7 @@
             </div>
         </li>
         <li class="nav-item" style="font-size: 1.3em;padding: 5px;">
-            <a href="" title="" data-toggle="tooltip" data-placement="bottom"
+            <a href="{{ route('moneybox') }}" title="" data-toggle="tooltip" data-placement="bottom"
                 class="btn btn-primary btn-flat pull-left m-8 hidden-xs btn-sm mt-10" data-original-title="Money Box">
                 <strong><i class="fas fa-cash-register"></i> &nbsp; @lang('site.boxmoney')</strong>
             </a>

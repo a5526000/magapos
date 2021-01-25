@@ -223,7 +223,7 @@
 
             $.ajax({
                 type: 'PUT',
-                url: "{{ url('paymentdue') }}" + id,
+                url: "{{ url('paymentdue') }}/" + id,
                 data: $('#paymentcredit').serialize(),
                 success: function (data) {
                     console.log(data);

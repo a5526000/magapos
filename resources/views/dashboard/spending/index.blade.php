@@ -278,7 +278,7 @@
 
             $.ajax({
                 type: 'PUT',
-                url: "{{ url('updatespend') }}" + id,
+                url: "{{ url('updatespend') }}/" + id,
                 data: $('#update_spend').serialize(),
                 success: function (data) {
                     console.log(data);

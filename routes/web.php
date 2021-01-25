@@ -46,7 +46,7 @@ Route::group(
             Route::put('/updateprice/{id}', 'Dashboard\ProductController@updateprice');
 
             Route::put('/paymentdue/{id}', 'Dashboard\SaleController@paymentdue');
-            Route::put('/paymentduep/{id}', 'Dashboard\purchaseController@paymentduep');
+            Route::put('/paymentduep/{id}', 'Dashboard\PurchaseController@paymentduep');
             Route::resource('/sale', 'Dashboard\SaleController');
             Route::resource('/purchase', 'Dashboard\PurchaseController');
             Route::resource('/client', 'Dashboard\ClientController')->except([

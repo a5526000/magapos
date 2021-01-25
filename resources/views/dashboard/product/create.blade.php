@@ -113,7 +113,7 @@
             //var barcode = $("#barcode").val();
             $.ajax({
                 type: "get",
-                url: "/barcode",
+                url: "{{ url('barcode') }}",
                 contentType: false,
                 processData: false,
                 success: function (data) {

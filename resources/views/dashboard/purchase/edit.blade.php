@@ -372,7 +372,7 @@
             // if (pro != '') {
             $.ajax({
                 type: "GET",
-                url: "/searchpurchase",
+                url: "{{ url('searchpurchase') }}",
                 data: 'pro=' + pro,
                 dataType: 'json',
                 success: function (data) {

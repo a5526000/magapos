@@ -310,7 +310,7 @@
             var searchbyproduct = $("#searchbyproduct").val();
             $.ajax({
                 type: "GET",
-                url: "/searchsale",
+                url: "{{ url('searchsale') }}",
                 //data: 'searchbycategoty=' + searchbycategoty,
                 data: {
                     'searchbycategoty': searchbycategoty,
@@ -352,7 +352,7 @@
                 console.log('Scanned: ' + iQty + 'x ' + sCode);
                 $.ajax({
                     type: "GET",
-                    url: "/addproduct",
+                    url: "{{ url('addproduct') }}",
                     data: 'code=' + sCode,
                     dataType: 'json',
                     success: function (data) {

@@ -318,7 +318,7 @@
             // if (pro != '') {
             $.ajax({
                 type: "GET",
-                url: "/searchsale",
+                url: "{{ url('searchsale') }}",
                 data: 'pro=' + pro,
                 dataType: 'json',
                 success: function (data) {
@@ -339,7 +339,7 @@
             if (code.length == 13) {
                 $.ajax({
                     type: "GET",
-                    url: "/addproduct",
+                    url: "{{ url('addproduct') }}",
                     data: 'code=' + code,
                     dataType: 'json',
                     success: function (data) {

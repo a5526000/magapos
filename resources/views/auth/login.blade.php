@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="{{ url('css/app.css') }}">
     <!-- Compiled and minified CSS -->
     <title>Login</title>
     <style>
@@ -41,12 +41,12 @@
 
     <div class="row no-gutters">
         <div class="col-md-6">
-            <img class="image" src="{{ asset('/uploads/settings/informatique.jpg') }}" alt="">
+            <img class="image" src="{{ url('/uploads/settings/informatique.jpg') }}" alt="">
         </div>
         <div class="col-md-6 login  mx-auto my-auto">
             <div class="login-body">
 
-                <img class="pb-5" src="{{ asset('/uploads/settings/magasin_logo.png') }}" style="width:400px;"
+                <img class="pb-5" src="{{ url('/uploads/settings/magasin_logo.png') }}" style="width:400px;"
                     alt="magasin logo">
                 <h2>Welcome To Your Store</h2>
                 <br>
@@ -82,9 +82,9 @@
 
     </div>
 
-    <script src="/js/app.js"></script>
+    <script src="{{ url('js/app.js') }}"></script>
     <!-- Compiled and minified JavaScript -->
-    <script src="/js/materialize.min.js"></script>
+    <script src="{{ url('js/materialize.min.js') }}"></script>
 </body>
 
 </html>
